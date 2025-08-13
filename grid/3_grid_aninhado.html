@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+
+    <!-- Você pode inserir novas rows dentro de uma col, criando um grid aninhado -->
+    <div class="container text-center bg-info">
+      <div class="row">
+        <div class="col col-6 border border-dark">Conteúdo 6</div>
+        <div class="col col-6 border border-dark">
+          <div class="row">
+            <div class="col border border-dark">Linha 1, Coluna aninhada 1</div>
+            <div class="col border border-dark">Linha 1, Coluna aninhada 2</div>
+          </div>
+          <div class="row">
+            <div class="col border border-dark">Linha 2, Coluna aninhada 1</div>
+            <div class="col border border-dark">Linha 2, Coluna aninhada 2</div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-6 border border-dark">Conteúdo 6</div>
+        <div class="col col-6 border border-dark">Conteúdo 6</div>
+      </div>
+    </div>
+  </body>
+</html>
