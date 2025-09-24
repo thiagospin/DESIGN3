@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- O input-group é um componente para agrupar campos de formulário com elementos adicionais, 
+     como botões, ícones ou textos, criando um campo de entrada mais complexo e visualmente integrado. -->
+
+    <!-- Um placeholder é um texto exibido dentro de um campo de formulário (como <input> ou <textarea>) 
+        para indicar ao usuário o que deve ser preenchido ali. 
+        Ele desaparece quando o usuário começa a digitar. -->
+
+    <form class="p-5">
+        <div class="input-group mb-3">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="e-mail" />
+        </div>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="nome de usuário" />
+            <span class="input-group-text">@servidor.com</span>
+        </div>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="usuário" />
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="servidor.com" />
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Área de Texto</span>
+            <textarea class="form-control" placeholder="o scroll aparece automaticamente"></textarea>
+        </div>
+
+        <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" type="button">Executar</button>
+            <input type="text" class="form-control" placeholder="executar uma função">
+        </div>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="executar uma função">
+            <button class="btn btn-warning" type="button">Executar</button>
+        </div>
+
+    </form>
+</body>
+
+</html>
