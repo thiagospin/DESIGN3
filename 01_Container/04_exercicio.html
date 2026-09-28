@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Container Bootstrap</title>
+        <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+  <header class="bg-dark text-white py-4 mb-4">
+    <div class="container">
+      <h1 class="h3 mb-1">Exercício: Containers no Bootstrap</h1>
+      <p class="mb-0">Prática de container fixo, container fluido e container responsivo.</p>
+    </div>
+  </header>
+
+  <main class="container mb-5">
+    <div class="alert alert-info" role="alert">
+      <h2 class="h5">Objetivo</h2>
+      <p class="mb-2">Treinar como o Bootstrap controla largura e espaçamento do conteúdo com diferentes tipos de container.</p>
+      <p class="mb-0">Abra o modo responsivo do navegador e alterne entre resoluções para observar o comportamento de cada bloco.</p>
+    </div>
+
+    <section class="mb-4">
+      <h2 class="h5">Passos do exercício</h2>
+      <ol>
+        <li>Observe o bloco 1 com <strong>container</strong> (largura fixa por breakpoint).</li>
+        <li>Observe o bloco 2 com <strong>container-fluid</strong> (100% da largura).</li>
+        <li>No bloco 3, teste <strong>container-sm</strong>, <strong>container-md</strong> e <strong>container-lg</strong> e compare os resultados.</li>
+        <li>Altere textos, cores e espaçamentos para reforçar o aprendizado.</li>
+      </ol>
+    </section>
+  </main>
+
+  <section class="container mb-4">
+    <div class="p-4 border rounded bg-light">
+      <h2 class="h5">Bloco 1 - .container</h2>
+      <p class="mb-0">Este conteúdo fica centralizado e com largura limitada conforme o tamanho da tela.</p>
+    </div>
+  </section>
+
+  <section class="container-fluid mb-4">
+    <div class="p-4 border rounded bg-warning-subtle">
+      <h2 class="h5">Bloco 2 - .container-fluid</h2>
+      <p class="mb-0">Este conteúdo ocupa toda a largura disponível da viewport.</p>
+    </div>
+  </section>
+
+  <section class="container-md mb-5">
+    <div class="p-4 border rounded bg-success-subtle">
+      <h2 class="h5">Bloco 3 - .container-md</h2>
+      <p class="mb-2">Desafio: troque a classe deste bloco para testar:</p>
+      <ul class="mb-0">
+        <li>container-sm</li>
+        <li>container-md</li>
+        <li>container-lg</li>
+        <li>container-xl</li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>

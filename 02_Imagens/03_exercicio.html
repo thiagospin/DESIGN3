@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Exercicio - Classes de Imagens Bootstrap</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body class="bg-light">
+        <header class="bg-dark text-white py-4 mb-4">
+            <div class="container">
+                <h1 class="h3 mb-1">Exercicio: Principais classes de imagens</h1>
+                <p class="mb-0">Pratique estilos e comportamento de imagens no Bootstrap.</p>
+            </div>
+        </header>
+
+        <main class="container mb-5">
+            <div class="alert alert-info">
+                <h2 class="h5">Objetivo</h2>
+                <p class="mb-2">Aplicar as classes mais usadas em imagens no Bootstrap com arquivos da pasta img.</p>
+                <p class="mb-0">Dica: abra o modo responsivo do navegador para ver melhor o efeito da classe img-fluid.</p>
+            </div>
+
+            <section class="mb-4">
+                <h2 class="h5">Tarefa 1 - Imagem responsiva</h2>
+                <p>Use a classe <strong>img-fluid</strong> para a imagem se ajustar ao tamanho da tela.</p>
+                <img src="../img/rato_grande_ratao_sports.jpg" class="img-fluid rounded border" alt="Banner Ratão Sports" />
+            </section>
+
+            <section class="mb-4">
+                <h2 class="h5">Tarefa 2 - Miniatura</h2>
+                <p>Use a classe <strong>img-thumbnail</strong> para criar uma moldura de miniatura.</p>
+                <img
+                    src="../img/logo1.avif"
+                    class="img-thumbnail"
+                    alt="Logo 1"
+                    style="height: 120px;"
+                />
+            </section>
+
+            <section class="mb-4">
+                <h2 class="h5">Tarefa 3 - Bordas arredondadas e circulo</h2>
+                <p>Compare <strong>rounded</strong> e <strong>rounded-circle</strong>.</p>
+                <div class="d-flex flex-wrap gap-3 align-items-center">
+                    <img src="../img/logo2.avif" class="rounded border" alt="Logo 2" style="height: 120px;" />
+                    <img src="../img/logo3.jpg" class="rounded-circle border" alt="Logo 3" style="height: 120px; width: 120px; object-fit: cover;" />
+                </div>
+            </section>
+
+            <section class="mb-4">
+                <h2 class="h5">Tarefa 4 - Alinhamento horizontal</h2>
+                <p>Aplique <strong>float-start</strong>, <strong>float-end</strong> e centralizacao com <strong>d-block mx-auto</strong>.</p>
+                <div class="p-3 border rounded bg-white clearfix">
+                    <img src="../img/logo1.avif" class="img-thumbnail float-start" alt="Logo esquerda" style="height: 90px;" />
+                    <img src="../img/logo2.avif" class="img-thumbnail float-end" alt="Logo direita" style="height: 90px;" />
+                    <img src="../img/logo3.jpg" class="img-thumbnail d-block mx-auto" alt="Logo central" style="height: 90px;" />
+                </div>
+            </section>
+
+            <section class="mb-4">
+                <h2 class="h5">Desafio final</h2>
+                <ol>
+                    <li>Troque a imagem do desafio por rato_ratao_sports.jpg.</li>
+                    <li>Adicione img-fluid e rounded-4 nessa imagem.</li>
+                    <li>Centralize a imagem usando d-block mx-auto.</li>
+                </ol>
+
+                <img
+                    src="../img/rato_ratao_sports.jpg"
+                    alt="Imagem para desafio"
+                    class="border"
+                    style="max-height: 220px;"
+                />
+            </section>
+        </main>
+    </body>
+</html>
